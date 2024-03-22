@@ -28,3 +28,15 @@ to check if it's work after install it and try it write on terminal:
 - how to test DOM and DOM events
 - how to expose the inner working of a function for testing
 - how to build a small of dobust project using tests
+
+
+
+always below code to use for every html document:
+
+beforeAll(() => {
+    let fs = require("fs");
+    let fileContents = fs.readFileSync("index.html", "utf-8");
+    document.open();
+    document.write(fileContents);
+    document.close();
+})

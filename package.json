@@ -1,21 +1,13 @@
 {
-  "name": "simon-game-ci-walkthrough",
+  "name": "simon-game-ci-walkthrough-project",
   "version": "1.0.0",
-  "description": "",
+  "description": "On terminal when you want to initiate the project open terminal and write:",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alakeldev/simon-game-ci-walkthrough.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/alakeldev/simon-game-ci-walkthrough/issues"
-  },
-  "homepage": "https://github.com/alakeldev/simon-game-ci-walkthrough#readme",
   "devDependencies": {
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0"
